@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: var(--white);
+    font-family: 'Kalam', cursive;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Vidaloka', serif;
+}
+/*css.variable*/
+:root{
+    --red: #ef1b27;
+    --black:#000000;
+    --white: #ffffff;
+    --gray:#b7b5ad;
+
+}
+/*utility classes*/
+.d-flex{
+      display: flex;
+      align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.gap{
+    gap:40px;
+}
+.w-100{
+    width: 100%;
+}
+.font{
+    font-size:20px ;
+}
+.mt-1{
+    margin-top: 20px;
+}
+.mb-1{
+    margin-bottom: 20px;
+}
+.white-colour{
+    color: var(--white);
+}
+.text-center{
+    text-align: center;
+}
+.left{
+    float: right;
+}
+.red-colour{
+    color: var(--red);
+    font-size: 30px;
+}
+.border{
+    border: 10px 10px 10px 10px ;
+    
+}
+.size-font{
+    font-size: 50px;
+}
+.style-dot{
+    list-style-type: none;
+}
+.point{
+    cursor: pointer;
+}
+.style{
+    list-style-type: none;
+}
+/*navbar*/
+.navbar-img{
+    width: 100px;
+    
+}
+
+.ul-list{
+    list-style-type: none ;
+    font-size: 16px;
+    cursor: pointer;
+
+    
+}
+nav{
+    color: var(--white);
+}
+.navbar-btn{
+    padding:   10px 20px 10px 20px;
+    background-color: var(--red);
+    border: none;
+    border-radius:20px ;
+    cursor: pointer;
+
+}
+span{
+    content: \2192;
+}
+/*Category*/
+.category-img{
+    width: 206px;
+    height: 350px;
+    object-fit: cover;
+}
+.category-para{
+    font-size: 20px;
+}
+.category-heading{
+    font-size: 40px;
+}
+h3{
+    color: var(--white);
+    text-align: center;
+}
+.Deals{
+    margin-top: 80px;
+    padding: auto;
+}
+.deals{
+    font-size: 50px;
+}
+.img-deal {
+    width: 600px;
+    height: 500px;
+}
+.deal-papar-size{
+    font-size: 20px;
+}
+.Learn{
+    padding:  10px 20px 10px 20px;
+    background-color: var(--gray);
+    border: none;
+    border-radius:20px ;
+    margin: 40px;
+    display: left;
+    cursor: pointer;
+}
+.samll-font{
+    font-size: 16px;
+}
+.h5-font{
+    font-size : 30px; ;
+}
+/*Deal*/
+.size-img{
+    width: 310px;
+    height: 255px;
+}
+.box{
+    text-align: center;
+    font-size: 18px;
+}
+.Week{
+    font-size: 40px;
+}
+.p-VIP{
+    font-size: 16px;
+
+}
+.price{
+    font-size: 26px;
+}
+.VIP-order{
+    color: var(--white);
+    background-color: var(--red);
+    padding:15px 25px 15px 25px;
+    border-radius:20px ;
+    border: none;
+    cursor: pointer;
+}
+.VIP-img{
+    width: 860px;
+    height: 860px;
+}
+.Mt-2{
+    margin-top: 350px;
+}
+.social-img{
+    width: 192px;
+    height: 192px;
+}
+.ht-3{
+    margin-top: 350px;
+}
+.back-img{
+    background-image:url(https://images-beta.tossdown.com/site/a4195117-d4ae-45d4-9088-21162bacdfb1.webp) 
+}
+.person{
+    width: 10px;
+    height: 10px;
+}
+.footer{
+   background-color: var(--gray);
+
+}
+.numder-color{
+    color: var(--white);
+}
+.mt-4{
+    margin-top:100px ;
+}
+.mt-5{
+    margin-top: 70px;
+}
+.font-1{
+    font: 30px;
+}
+.mt-6{
+    margin-top: 250px;
+}
+.mt-7{
+    margin: 60px ;
+}
+.number{
+    text-decoration: none;
+}
+.restant{
+    font-size: 30px;
+}
+
+.right{
+    float: left;
+}
+.gap-2{
+    gap: 40px;
+    
+}
+.footer-section {
+    color: #fff;
+    float: left;
+    width: 100%;
+    padding: 70px 15px 0px 15px;
+    background: rgba(255, 255, 255, 0.06);
+    position: relative;
+}
+/*publication*/
+.content-holds {
+    border: 1px solid #ffffff52;
+    border-width: 1px 1px 1px 1px;
+    transition: background  0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 32px 0px 40px;
+    margin-bottom: 32px;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+.content-holds img:hover {
+    transform: scale(1.1);
+}
+.content-holds img {
+    transition-duration: 0.5s;
+}
+.hold-img{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+/*adout*/
+.container{
+    padding: 12px 12px 12px;
+    margin-bottom: 32px;
+    min-height: 430px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.06);
+    text-align: center;
+}    
+.img-location{
+    width: 265.98px;
+    height: 275px;
+}
+.phone{
+
+}
