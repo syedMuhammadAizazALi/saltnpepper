@@ -281,4 +281,52 @@ h3{
     width: 265.98px;
     height: 275px;
 }
-
+/*feeback*/
+.form-control {
+    height: 44px !important;
+    border: 1px solid #ced4da !important;
+}
+.form-control {
+display: block;
+width: 100%;
+height: calc(1.5em + 0.75rem + 2px);
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+width: 450px;
+height: 44px;
+}
+.form{
+    background-color: #fff; ;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.dis-b{
+    display: block;
+}
+.text-danger {
+    color: #dc3545;
+}
+.feed-btn{
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    height: 46px;
+    border-radius: 62px;
+    color: #fff !important;
+    padding: 12px 23px 8px 23px;
+    background-color: var(--red);
+    border: none;
+}
